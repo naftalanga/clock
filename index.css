@@ -1,0 +1,24 @@
+div {
+    font-family: 'Single Day', cursive;
+}
+
+#time {
+    text-align-last: right;
+    border:10px solid black;
+    margin: 50px 30% 10px 30%;
+    padding: 100px 100px 100px 100px;
+    border-radius: 15px;
+}
+
+#timeZone {
+    color: gray;
+    font-size: 30px;
+}
+
+#localDate {
+    font-size: 100px;
+}
+
+#calendarDate {
+    font-size: 30px;
+}

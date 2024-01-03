@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    <title>Clocks</title>
+</head>
+<body>
+    <div id='time'>
+        <div id="timeZone"></div>
+        <div id="localDate"></div>
+        <div id="calendarDate"></div>
+    </div>
+
+
+    <button id="open-modal-button">Open Modal</button>
+
+    <div class="modal micromodal-slide" id="my-modal">
+        <div class="modal__overlay" tabindex="-1">
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="my-modal-title">
+                <header class="modal__header">
+                    <h2 class="modal__title" id="my-modal-title">Modal Title</h2>
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <main class="modal__content">
+                    <p>This is the content of the modal.</p>
+                </main>
+                <footer class="modal__footer">
+                    <button class="modal__btn" data-micromodal-close aria-label="Close modal">Close</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
